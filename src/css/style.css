@@ -1,3 +1,9 @@
+@font-face{
+  font-family: "Halloween";
+  src: url("Halloween.ttf");                            
+}
+
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -9,10 +15,46 @@ body {
 }
 
 :root {
+  --darkpurple:#040410;
+  --purple:#41113E;
+  --orange:#F47615;
+  --brown:#86381F;
   
 }
 
 /* NAVBAR */
+#nav-bar{
+  background-color: var(--darkpurple);
+  display: flex;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  padding-left:3vh;
+}
+
+#nav-bar h1{
+  color: var(--orange);
+  font-family: 'Halloween',Arial, Helvetica, sans-serif;
+  font-size: 3em;
+}
+
+#nav-bar ul{
+  display: flex;
+  margin-left: 20vh;
+}
+
+#nav-bar ul li{
+  list-style: none;
+  padding-top: 3vh;
+}
+
+#nav-bar ul li a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: var(--orange);
+  margin-left: 20vh;
+}
+
 
 
 /* ABOUT */
